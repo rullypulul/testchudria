@@ -1,0 +1,58 @@
+
+.container { //or use a custom class like .custom-container
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
+img .gallery-title{
+
+    /*position: absolute;*/
+    top: 10px;
+    width: 5%;
+    height: 5%;
+}
+
+.gallery-title
+{
+    font-size: 36px;
+    color: black;
+    text-align: left;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #42B32F;
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #42B32F;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #42B32F;
+    color: white;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+
+}
