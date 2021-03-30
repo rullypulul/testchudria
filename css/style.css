@@ -1,8 +1,29 @@
 
 
-.container { //or use a custom class like .custom-container
+/*.container { //or use a custom class like .custom-container
   padding-left: 1px;
   padding-right: 1px;
+ 
+}*/
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 80%;
+    }
 }
 
 img .gallery-title{
@@ -57,3 +78,4 @@ img .gallery-title{
     margin-bottom: 30px;
 
 }
+
